@@ -1,0 +1,17 @@
+{
+  "name": "grading-system-web-app",
+  "version": "1.0.0",
+  "description": "A web application for managing grades using Oracle Database XE.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "oracledb": "^5.1.0",
+    "body-parser": "^1.19.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
